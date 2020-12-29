@@ -1,0 +1,109 @@
+/*i used this type in my example code as the code is simple, but examples of BEM are at the bottom*/
+body {
+    text-align: center;
+    min-width: 400px;
+}
+
+#stickyNav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: auto;
+    border-bottom: solid 3px;
+    border-color: #000;
+    background-color: blueviolet;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: darkmagenta;
+    color: darkgray;
+}
+
+#content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+table{
+    border:0px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    padding: 5px;
+}
+
+td{
+    padding: 10px;
+}
+
+.magnify:hover {
+    zoom: 125%;
+}
+
+input{
+    width: 300px;
+    float: left;
+}
+
+select{
+    float: left;
+}
+
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    border-top: 3px solid #000;
+    text-align: right;
+}
+
+/*BEM mothodolighy examples - not used in the code*/
+
+txt-align-left{
+    text-align: left;
+}
+txt-align-center{
+    text-align: center;
+}
+txt-align-right{
+    text-align: right;
+}
+txt-font-10{
+    font-size: 10px;
+}
+txt-font-20{
+    font-size: 20px;
+}
+txt-font-40{
+    font-size: 40px;
+}
+bg-red{
+    color: red;
+}
+bg-blue{
+    color: blue;
+}
+bg-green{
+    color: green;
+}
+/*ect*/
